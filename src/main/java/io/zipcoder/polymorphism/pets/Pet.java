@@ -8,7 +8,7 @@ abstract class Pet {
         this.name = name;
     }
 
-    abstract public void speak();
+    abstract public String speak();
 
     abstract public String getPet();
 

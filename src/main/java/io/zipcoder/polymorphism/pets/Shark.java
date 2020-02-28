@@ -6,8 +6,8 @@ public class Shark extends Pet {
         super(name);
     }
 
-    public void speak() {
-        System.out.print("Chomp!");
+    public String speak() {
+        return "Chomp!";
     }
 
     public String getPet() {
