@@ -60,7 +60,7 @@ public class Application {
 
     public static void printPets(){
         for (int i = 0; i < numOfPets; i++) {
-            System.out.printf("Your %s says %s", pets.get(i).getPet(), pets.get(i).speak());
+            System.out.printf("Your %s named %s says %s", pets.get(i).getPet(), pets.get(i).getName(), pets.get(i).speak());
             System.out.println();
         }
     }
